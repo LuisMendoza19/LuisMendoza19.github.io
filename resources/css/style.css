@@ -32,34 +32,27 @@ a:hover{
     color:#C6FFC1;
 }
 
-.dropdown{
+.navbar-content{
     display: flex;
 }
 
-@media only screen and (min-width: 376px) and (max-width:1024px){
+@media only screen and (min-width: 426px) and (max-width:1024px){
     header{
         background-color: black;
     }
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 425px){
     header{
         background-color: black;
     }
-    .dropdown a{
-        height: 25px;
-    }
-    .dropdown-content{
-        display: none; 
-        position: absolute;
-        top:45px;
-        z-index: 1;
-        background-color: black;
-        max-width: 120px;
-        min-height: 60px;
-    }
 
-    .dropdown:hover .dropdown-content {
-        display: block;
-      }
+    .navbar{
+        width: inherit;
+    }
+    .navbar-content a{
+        width: 25%;
+    }
+    
+
 }
