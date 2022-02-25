@@ -168,6 +168,7 @@ body{
 #footer{
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
   position: fixed;
   bottom: 0px;
   width:100%;
@@ -179,7 +180,6 @@ body{
   text-transform: uppercase;
   font-family: Helvetica, sans-serif;
   font-size: 12px;
-  border-top: 1px solid black;
   padding: 15px 0px;
 }
 
