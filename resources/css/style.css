@@ -16,6 +16,14 @@ body{
 
 }
 
+
+h2{
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-weight: 800;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
 .wrapper{
   max-width: 1000px;
   min-width: 250px;
@@ -49,11 +57,6 @@ body{
   font-size: 25px;
   text-decoration: none;
   color: black;
-}
-
-.content-info h2{
-  font-size: 22px;
-  font-weight: 800;
 }
 
 .content-info p a{
@@ -125,10 +128,6 @@ body{
 
 .content-info-skills{
   margin-bottom: 100px;
-}
-
-.content-info-skills h2{
-  margin-bottom: 10px;
 }
 
 .content-info-skills img{
