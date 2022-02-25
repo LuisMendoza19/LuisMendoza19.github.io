@@ -212,6 +212,15 @@ h2{
       width: 95%;
   }
 
+  h2{
+    font-weight: 900;
+  }
+
+  .content-info-about{
+    font-weight: 600;
+    color: rgb(29, 29, 29);
+  }
+
   .content-image{
       text-align: center;
       width: 95%;
