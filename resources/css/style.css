@@ -221,15 +221,4 @@ body{
       margin-top: -100px;
   }
 
-  #footer{
-    height: 15px;
-    font-size: 10px;
-  }
-
-  .list-item i{
-    font-size: 12px;
-    margin: 0 5px;
-    margin-top: -5px;
-  }
-
 }
