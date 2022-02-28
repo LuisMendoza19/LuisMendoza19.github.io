@@ -200,6 +200,12 @@ h2{
   margin-top: -5px;
 }
 
+.list-item a{
+  text-decoration: none;
+  font-style: normal;
+  color: #efebe0;
+}
+
 @media only screen and (max-width: 600px) {
   .content{
       display: flex;
