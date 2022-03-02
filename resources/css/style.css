@@ -113,13 +113,26 @@ h2{
 .project-img{
   border-radius: 5px;
 }
-#UANL{
+#UANL a{
+  font-size: 20px;
   font-style: italic;
   text-decoration: underline;
   transition: color .1s ease-out .2s;
 }
 
-#UANL:hover{
+#UANL a:hover{
+  color:#ff4438;
+  cursor: pointer;
+  text-decoration: underline;
+}
+#PPI a{
+  font-size: 20px;
+  font-style: italic;
+  text-decoration: underline;
+  transition: color .1s ease-out .2s;
+}
+
+#PPI a:hover{
   color:#ff4438;
   cursor: pointer;
   text-decoration: underline;
